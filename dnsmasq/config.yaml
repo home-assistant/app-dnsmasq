@@ -1,13 +1,13 @@
 ---
-version: 2.1.0
+version: dev
 slug: dnsmasq
 name: Dnsmasq
 description: A simple DNS server
-url: https://github.com/home-assistant/addons/tree/master/dnsmasq
+url: https://github.com/home-assistant/app-dnsmasq
 arch:
   - aarch64
   - amd64
-image: homeassistant/{arch}-addon-dnsmasq
+image: ghcr.io/home-assistant/app-dnsmasq
 init: false
 options:
   defaults:
